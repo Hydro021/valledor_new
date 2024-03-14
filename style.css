@@ -1,0 +1,65 @@
+    body{
+        background-color: burlywood;
+        margin: 0 auto;
+        padding: 10px;
+        background-image: url("h.jpg");
+        background-size: cover; 
+    background-position: center; 
+    height: 300px;
+    }
+
+    .m{
+        max-width: 150vh;
+        box-shadow: 15px 15px 15px black;
+        margin-left: 150px;
+        border-radius: 25px;
+    }
+    .para{
+        font-size: x-large;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: justify;
+        font-weight: 100;
+        width: 1200px;
+        box-shadow: 5px 5px 5px skyblue;
+        margin-left: 0;
+        border-radius: 10px;
+    }
+    .btn{
+        font-size: large;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        border:5px;
+        background-color: skyblue;
+        border-radius: 10px;
+        border-style: groove;
+    }
+    h1{ 
+        border: 5px solid black;
+        text-align: center;
+        background-color:tan;
+        width: 150vh;
+        margin-left: 100px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        box-shadow: 5px 5px 10px skyblue;
+        border-radius: 10px;  
+    }  
+    .btn:hover{
+        background-color:firebrick;
+        color: white;
+        cursor: pointer;
+    }   
+    .infodata{
+        border: 2px solid;
+        background-color: antiquewhite;
+    } 
+    .ul2{
+        margin-left:200px;
+        margin-top: -122px;
+    }
+    @media screen and (max-width: 700px){
+        #form{
+            width: 65%;
+            padding: 40px;
+        }
+    }
+
+    
